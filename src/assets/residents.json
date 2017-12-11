@@ -1,0 +1,22 @@
+{
+  "residents": [
+    {
+      "id": 1,
+      "role": "Owner",
+      "first_name": "John",
+      "last_name": "Smith",
+      "phone": "219-839-2819",
+      "nric": "S92039310K",
+      "email": "john@gmail.com"
+    }
+    {
+      "id": 2,
+      "role": "Owner",
+      "first_name": "Jenny",
+      "last_name": "Tan",
+      "phone": "219-839-2819",
+      "nric": "S92039310K",
+      "email": "jenney@gmail.com"
+    }
+  ]
+}

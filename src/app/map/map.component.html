@@ -1,0 +1,29 @@
+<html>
+<body>
+    <h1>Getting Here and Map</h1>
+    <!-- this creates a google map on the page with the given lat/lng from -->
+    <!-- the component as the initial center of the map: -->
+    <agm-map [latitude]="lat" [longitude]="lng">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+    <!--random text -->
+    <h2>Public Transport Options</h2>
+    <h3>Buses: </h3><p> 123 143 40 293 294 </p>
+    <h3>MRT: </h3><p> Cherry Blossom MRT </p>
+
+    <h2>Map of the Area</h2>
+    <table class="test">
+        <tr>
+            <td><img src="http://www.windsorhillsbest.com/images/condomap.jpg"/></td>
+            <td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+                like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

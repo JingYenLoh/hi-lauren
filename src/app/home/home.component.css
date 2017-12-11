@@ -1,0 +1,59 @@
+.bgimg {
+    background-image: url(http://www.condomarinapalms.com/images/home/background_1.jpg);
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: block;
+}
+
+#content-all {
+    width: 980px;
+    min-height: 300px;
+    overflow: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 100px; */
+    display: block;
+    padding: 60px 10px 10px 10px;
+    border-bottom: 2px solid #ededed;
+    border-left: 2px solid #ededed;
+    border-right: 2px solid #ededed;
+    background: url(../assets/trans1.png);
+    position: relative;
+    z-index: 0;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-align {
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+}
+
+table.test {
+    border-collapse: separate;
+    border-spacing: 10px;
+    *border-collapse: expression('separate', cellSpacing = '10px');
+}
+
+table.test td {
+        margin: 12px 12px 12px 12px;
+        padding: 12px 12px 12px 12px;
+    }
+
+pre {
+    text-align: left;
+}

@@ -1,0 +1,24 @@
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/"><i class="fa fa-leaf"></i> ROSE CONDOMINIUM</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/home"><i class="fa fa-home"></i> <strong> Home</strong></a></li>
+                    <li><a routerLink="/facility"><i class="fa fa-shield"></i> <strong> Facility</strong></a></li>
+                    <li><a routerLink="/request"><i class="fa fa-folder-open"></i> <strong> Request</strong></a></li>
+                    <li><a routerLink="/help"><i class="fa fa-question"></i> <strong> Help</strong></a></li>
+                    <li><a routerLink="/user"><i class="fa fa-user"></i> <strong> Profile</strong></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <!--routing here-->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</body>
